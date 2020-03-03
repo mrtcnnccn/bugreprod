@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+
+    <com.bugreproduction.geftimov.GeftimovView
+        android:layout_width="match_parent"
+        android:id="@+id/my_view"
+        android:layout_height="match_parent">
+
+
+    </com.bugreproduction.geftimov.GeftimovView>
+
+</FrameLayout>
