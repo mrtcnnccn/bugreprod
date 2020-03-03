@@ -31,7 +31,7 @@ class GeftimovView @JvmOverloads constructor(
 
     private fun init(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0) {
         content = Toolbar.inflate(context,
-            R.layout.my_view, this) as ViewGroup
+            R.layout.geftimov_view, this) as ViewGroup
         tv = content.findViewById(R.id.tv)
         reverse = content.findViewById(R.id.reverse)
         next = content.findViewById(R.id.next)

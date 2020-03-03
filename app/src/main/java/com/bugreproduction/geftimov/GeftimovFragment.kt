@@ -25,7 +25,7 @@ class GeftimovFragment : Fragment() {
     }
 
     fun getLayoutRes(): Int {
-        return R.layout.fragment_main
+        return R.layout.fragment_geftimov
     }
 
     fun initViews() {
